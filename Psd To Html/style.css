@@ -1,0 +1,614 @@
+/* header-area start from here */
+
+body {
+	font-family: "Titillium Web", sans-serif;
+}
+
+.header-area {
+	background: #87509c;
+	padding: 50px 0px;
+}
+.middle-area {
+	width: 80%;
+	margin: auto;
+}
+.logo-area {
+	width: 30%;
+	float: left;
+}
+.main-menu {
+	width: 70%;
+	float: left;
+}
+.header-top:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-menu ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.main-menu ul li {
+	float: left;
+}
+.main-menu ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.main-menu ul li a {
+	padding: 5px 15px;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.main-menu ul li a:hover,
+.main-menu ul li a.action {
+	background: #643a79;
+}
+.header-bottom {
+	text-align: center;
+	padding: 100px 0;
+}
+.header-bottom h2 {
+	color: #fff;
+	font-size: 43px;
+	line-height: 10px;
+}
+.call-to-action-header a {
+	background: #eb7d4b;
+	padding: 10px 60px;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 30px;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px #c86a40;
+}
+.call-to-action-header a:hover {
+	box-shadow: 0px 0px 0px #eb7d4b;
+}
+
+/* service area design here */
+
+.services-area {
+	background: #17c2a4;
+	padding: 50px 0;
+}
+
+.services-area .middle-area > h2 {
+	font-size: 40px;
+	color: #fff;
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.services-area hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #14a58c;
+	width: 10%;
+}
+
+.services-area .middle-area > p {
+	font-size: 19px;
+	color: #fff;
+	width: 58%;
+	margin: auto;
+	text-align: center;
+}
+
+.services-boxs .box {
+	width: 23%;
+	display: inline-block;
+}
+
+.services-boxs {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.services-boxs .box h2 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.services-boxs .box p {
+	color: #fff;
+	margin: auto;
+	width: 80%;
+}
+
+/* team area design here */
+
+.team-area {
+	background: #e7f1f8;
+	padding: 50px 0;
+}
+
+.team-area .middle-area > h2 {
+	font-size: 42px;
+	color: #3c4761;
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.team-area hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #c8d9e5;
+	width: 10%;
+}
+
+.team-area .middle-area > p {
+	font-size: 19px;
+	color: #3c4761;
+	width: 65%;
+	margin: auto;
+	text-align: center;
+}
+
+.team-boxs .box {
+	width: 23%;
+	display: inline-block;
+}
+
+.team-mem {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.team-mem img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.team-boxs {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.team-boxs .box h2 {
+	color: #27283d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	font-size: 24px;
+}
+
+.team-boxs .box h3 {
+	color: #30bae7;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 16px;
+	margin-top: 30px;
+}
+
+.team-boxs .box p {
+	color: #3c4761;
+	margin: auto;
+	width: 83%;
+}
+
+.social-link ul {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-link ul li {
+	display: inline-block;
+}
+.social-link ul li i {
+	color: #fff;
+	background: #bdd1df;
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+
+/* skills area design here */
+
+.skills-area {
+	background: #ffffff;
+	padding: 50px 0;
+}
+
+.skills-area .middle-area > h2 {
+	font-size: 40px;
+	color: #3c4761;
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.skills-area hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #dfe8ed;
+	width: 10%;
+}
+
+.skills-area .middle-area > p {
+	font-size: 19px;
+	color: #3c4761;
+	width: 58%;
+	margin: auto;
+	text-align: center;
+}
+
+/* plugin design */
+
+.pie-title-center {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.pie-value {
+	display: block;
+	position: absolute;
+	font-size: 40px;
+	height: 40px;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: -20px;
+	line-height: 40px;
+}
+
+.skills-boxs .box {
+	width: 23%;
+	display: inline-block;
+}
+
+.skills-boxs {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.skills-boxs .box h2 {
+	color: #3c4761;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* portfolio area design here */
+
+.portfolio-area {
+	background: #ffdd99;
+	padding: 50px 0;
+}
+
+.portfolio-area .middle-area > h2 {
+	font-size: 40px;
+	color: #393939;
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.portfolio-area hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #e5c37f;
+	width: 10%;
+}
+
+.portfolio-area .middle-area > p {
+	font-size: 19px;
+	color: #393939;
+	width: 58%;
+	margin: auto;
+	text-align: center;
+}
+
+.portfolio-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	margin-top: 29px;
+}
+.portfolio-menu ul li {
+	display: inline-block;
+}
+.portfolio-menu ul li a {
+	background: #ffffff;
+	color: #393939;
+	padding: 5px 25px;
+	display: block;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.portfolio-menu ul li a:hover {
+	background: #ebc985;
+}
+
+.portfolio-boxs .box {
+	width: 48%;
+	display: inline-block;
+}
+
+.port-image {
+	width: 500px;
+	margin: auto;
+}
+
+.port-image img {
+	width: 100%;
+}
+
+.portfolio-boxs {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.portfolio-boxs .box h2 {
+	color: #393939;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+.call-to-action-header a {
+	background: #17c2a4;
+	padding: 10px 60px;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 30px;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px #14a58c;
+}
+.call-to-action-header a:hover {
+	box-shadow: 0px 0px 0px #17c2a4;
+}
+
+/* testimonial area design here */
+
+.testimonial-area {
+	background: #d74680;
+	padding: 50px 0;
+}
+
+.testimonial-area .middle-area > h2 {
+	font-size: 40px;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.testimonial-area hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #b73c6d;
+	width: 10%;
+}
+
+.testimonial-area .middle-area > p {
+	font-size: 19px;
+	color: #ffffff;
+	width: 58%;
+	margin: auto;
+	text-align: center;
+}
+
+.testimonial-boxs .box {
+	width: 48%;
+	display: inline-block;
+	padding: 50px 0;
+}
+
+.testi-image {
+	width: 100px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	padding-right: 50px;
+}
+.testi-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.testi-cont {
+	width: 300px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.testimonial-boxs {
+	text-align: center;
+	margin-top: 50px;
+}
+.testi-cont q {
+	color: #fff;
+	font-style: italic;
+	font-size: 20px;
+}
+.testi-cont h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 19px;
+	margin-bottom: 5px;
+}
+
+.testi-cont h3 {
+	color: #ffdd99;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 0px;
+	font-weight: normal;
+}
+
+/* contact area design here */
+
+.contact-area {
+	background: #3c5499;
+	padding: 50px 0;
+}
+
+.contact-area .middle-area > h2 {
+	font-size: 40px;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.contact-area hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #273a71;
+	width: 10%;
+}
+
+.contact-area .middle-area > p {
+	font-size: 19px;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+}
+
+.username input {
+	font-size: 20px;
+	background: #273a71;
+	padding: 10px;
+	border: 1px solid transparent;
+	color: #fff;
+	box-sizing: border-box;
+	margin-top: 0px;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+}
+
+.username {
+	margin-top: 50px;
+}
+
+.username .name-filed {
+	float: left;
+	width: 49%;
+	position: relative;
+}
+
+.name-filed label {
+	position: absolute;
+	color: #fff;
+	top: 11px;
+	left: 17px;
+}
+.username .email-filed {
+	float: right;
+	width: 49%;
+	position: relative;
+}
+
+.email-filed label {
+	position: absolute;
+	color: #fff;
+	top: 11px;
+	left: 17px;
+}
+.name-filed span {
+	color: red;
+}
+
+.email-filed span {
+	color: red;
+}
+
+.username:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.contact-boxs {
+	margin: auto;
+	width: 80%;
+}
+
+.contact-boxs textarea {
+	width: 100%;
+	font-size: 20px;
+	background: #273a71;
+	padding: 10px;
+	border: 1px solid transparent;
+	color: #fff;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.call-to-action-cont {
+	text-align: center;
+}
+.call-to-action-cont input {
+	background: #30bae7;
+	padding: 10px 60px;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 30px;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	box-shadow: 0px 5px 0px #299ec5;
+}
+.call-to-action-cont input:hover {
+	background: #299ec5;
+}
+
+/* footer area design */
+
+.footer-area {
+	background: #344b8e;
+	padding: 40px;
+}
+.footer-menu ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 30px;
+	font-weight: bold;
+}
+.footer-menu ul li a:hover {
+	color: #30bae7;
+}
